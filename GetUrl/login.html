@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>用户登录</title>
+    <link rel="stylesheet" type="text/css" href="resource/css.css" />
+    <style type="text/css">
+        html{font-size:12px;}
+        fieldset{width:520px; margin: 0 auto;}
+        legend{font-weight:bold; font-size:14px;}
+        label{float:left; width:70px; margin-left:10px;}
+        .left{margin-left:80px;}
+        .input{width:150px;}
+        span{color: #666666;}
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <section id="content">
+        <form action="login.php" method="post">
+            <h1>Login Form</h1>
+            <div>
+                <input type="text" placeholder="Username" required="" id="username" name="username"/>
+            </div>
+            <div>
+                <input type="password" placeholder="Password" required="" id="password" name="password" />
+            </div>
+            <div>
+                <input type="submit" name="submit" value="Log in" />
+
+            </div>
+        </form><!-- form -->
+
+    </section><!-- content -->
+</div><!-- container -->
+</body>
+</html>
